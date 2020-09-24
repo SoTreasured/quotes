@@ -1,21 +1,36 @@
 body{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(images/bg4.jpg);
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(rgba(0,0,0,1.0),rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(images/bg5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
+}
+div.top{
+    background:linear-gradient(rgba(214, 198, 198, 0.3),rgba(179, 172, 172, 0.3),rgba(240, 237, 237, 0.3)) ;
+    padding: 7px 5px;
+}
+span.one{
+    color: rgb(10, 5, 8);
+    text-transform: uppercase;
+}
+span.two{
+    color: rgb(42, 18, 15);
+    text-transform: uppercase;
+}
+div.quote{
+    
 }
 h1{
     color: antiquewhite;
 }
-h1#title>i{
-    text-align: center;
-    
-}
+
 
 div.buttons{
     justify-content: center;
     display: flex;
     justify-content: space-around;
-    padding: 134px 0px 0px 0px;
+    padding: 120px 0px 0px 0px;
 }
 
 div.buttons>div{
@@ -27,4 +42,6 @@ div.buttons>div>button{
     padding:15px 10px;
     font-size: 20px;
     font-weight: 600;
+    border: 2px rgb(7, 7, 22) solid;
+    border-radius: 18px;
 }
