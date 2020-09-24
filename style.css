@@ -1,14 +1,15 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(rgba(0,0,0,1.0),rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(images/bg5.jpg);
+    background: linear-gradient(rgba(0,0,0,1.0),rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url(images/bg5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
 }
 div.top{
-    background:linear-gradient(rgba(214, 198, 198, 0.3),rgba(179, 172, 172, 0.3),rgba(240, 237, 237, 0.3)) ;
+    background:linear-gradient(rgba(214, 198, 198, 0.7),rgba(179, 172, 172, 0.7),rgba(240, 237, 237, 0.7)) ;
     padding: 7px 5px;
+    box-shadow: 0px 1px 30px 3px rgb(15, 4, 4);
 }
 span.one{
     color: rgb(10, 5, 8);
