@@ -1,18 +1,29 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: antiquewhite;
+}
 h1#title>i{
     text-align: center;
+    
 }
+
 div.buttons{
     justify-content: center;
     display: flex;
     justify-content: space-around;
-    padding-top: 180px;
+    padding: 134px 0px 0px 0px;
 }
+
 div.buttons>div{
     display: flex;
     flex-direction: column;    
 }
 div.buttons>div>button{
-    margin-top: 25px;
+    margin: 20px 0px 0px 0px;
     padding:15px 10px;
     font-size: 20px;
     font-weight: 600;
