@@ -1,3 +1,6 @@
+h1#title>i{
+    text-align: center;
+}
 div.buttons{
     justify-content: center;
     display: flex;
