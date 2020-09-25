@@ -10,7 +10,7 @@ var quote = [
 
 function showQuote(){
     const randomIndex = Math.floor(Math.random() * quote.length);
-    const titleQuote = document.getElementById("title")
+    const titleQuote = document.getElementById("quote")
     titleQuote.innerHTML =  quote[randomIndex];
 }
 

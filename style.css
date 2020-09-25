@@ -20,7 +20,10 @@ span.two{
     text-transform: uppercase;
 }
 div.quote{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
 }
 h1{
     color: antiquewhite;
